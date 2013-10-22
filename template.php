@@ -1,6 +1,6 @@
 <?php
-
 function templatetop( $title, $css = array(), $js = array(), $subpage = '', $headother = '' ) {
+	global $PROJECT;
 	$csslinks = "";
 	foreach( $css as $page ) {
 		$csslinks .= "		<link rel=\"stylesheet\" href=\"/$PROJECT/commonphp/$page\" type=\"text/css\" />\n";
