@@ -3,7 +3,7 @@
 function templatetop( $title, $css = array(), $js = array(), $subpage = '', $headother = '' ) {
 	$csslinks = "";
 	foreach( $css as $page ) {
-		$csslinks .= "		<link rel=\"stylesheet\" href=\"/amdb/commonphp/$page\" type=\"text/css\" />\n";
+		$csslinks .= "		<link rel=\"stylesheet\" href=\"/$PROJECT/commonphp/$page\" type=\"text/css\" />\n";
 	}
 	$title = htmlspecialchars( $title, ENT_QUOTES );
 	if ( $subpage ) {
@@ -12,16 +12,16 @@ function templatetop( $title, $css = array(), $js = array(), $subpage = '', $hea
 	
 	$jselems = "";
 	foreach( $js as $page ) {		
-		$jselems .= "		<script type=\"text/javascript\" src=\"/amdb/commonphp/$page\"></script>\n";
+		$jselems .= "		<script type=\"text/javascript\" src=\"/$PROJECT/commonphp/$page\"></script>\n";
 	}
 
 	echo "<!DOCTYPE html>
 <html>
 	<head>
-		<title>$title - alexz's tools - Wikimedia Toolserver</title>
+		<title>$title - alexz's tools - Wikimedia Tool Labs</title>
 		<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />
 $csslinks
-		<link rel=\"stylesheet\" href=\"/amdb/commonphp/main.css\" type=\"text/css\" media=\"screen\" />
+		<link rel=\"stylesheet\" href=\"/$PROJECT/commonphp/main.css\" type=\"text/css\" media=\"screen\" />
 
 $jselems
 $headother
@@ -75,7 +75,7 @@ function templatebottom() {
 			</ul>
 		</div><!-- pBody -->
 		<h5>&nbsp;</h5>
-		<p>
+<!--		<p>
 			<a href=\"http://wiki.toolserver.org/\" title=\"Wikimedia Toolserver\">
 				<img src=\"/images/wikimedia-toolserver-button.png\" alt=\"Wikimedia Toolserver\"/>
 			</a>
@@ -85,7 +85,7 @@ function templatebottom() {
 				<img src=\"http://toolserver.org/~alexz/valid-html5.png\" alt=\"Valid HTML 5\" height=\"31\" width=\"88\" />
 			</a>
 		</p>
-
+-->
 	</div><!-- portlet -->
 
 	</div><!-- mw_portlets -->
