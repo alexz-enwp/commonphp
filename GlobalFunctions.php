@@ -1,7 +1,5 @@
 <?php
 
-require_once( '../messages/msg.php' );
-
 # wfUrlencode - borrowed from MediaWiki's GlobalFunctions.php
 function wfUrlencode( $s ) {
     $s = rawurlencode( $s );
@@ -35,20 +33,3 @@ function shellexec( $cmd ) {
 	return $res;
 }
 
-function showNotices() {
-	$msgs = func_get_args();
-	array_unshift( $msgs, 'global' );
-	$do = call_user_func_array( 'TSNotices::msgsExist', $msgs );
-	if ( $do ) {
-		$first = true;
-		$texts = array();
-		foreach ( $msgs as $msg ) {
-			$res = TSNotices::getMsg( $msg );
-			if ( $res ) {
-				$texts[] = $res;
-			}
-		}
-		$text = implode( "<br />", $texts );
-		echo "<div class='messagebox notice'>$text</div>";
-	}
-}

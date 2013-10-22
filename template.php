@@ -3,7 +3,7 @@
 function templatetop( $title, $css = array(), $js = array(), $subpage = '', $headother = '' ) {
 	$csslinks = "";
 	foreach( $css as $page ) {
-		$csslinks .= "		<link rel=\"stylesheet\" href=\"/~alexz/$page\" type=\"text/css\" />\n";
+		$csslinks .= "		<link rel=\"stylesheet\" href=\"/amdb/commonphp/$page\" type=\"text/css\" />\n";
 	}
 	$title = htmlspecialchars( $title, ENT_QUOTES );
 	if ( $subpage ) {
@@ -12,7 +12,7 @@ function templatetop( $title, $css = array(), $js = array(), $subpage = '', $hea
 	
 	$jselems = "";
 	foreach( $js as $page ) {		
-		$jselems .= "		<script type=\"text/javascript\" src=\"/~alexz/$page\"></script>\n";
+		$jselems .= "		<script type=\"text/javascript\" src=\"/amdb/commonphp/$page\"></script>\n";
 	}
 
 	echo "<!DOCTYPE html>
@@ -21,7 +21,7 @@ function templatetop( $title, $css = array(), $js = array(), $subpage = '', $hea
 		<title>$title - alexz's tools - Wikimedia Toolserver</title>
 		<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />
 $csslinks
-		<link rel=\"stylesheet\" href=\"/~alexz/common/main.css\" type=\"text/css\" media=\"screen\" />
+		<link rel=\"stylesheet\" href=\"/amdb/commonphp/main.css\" type=\"text/css\" media=\"screen\" />
 
 $jselems
 $headother
