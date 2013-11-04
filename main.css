@@ -48,6 +48,7 @@ div.container {
 }
 div.bgcontainer {
 	border-radius:0.5em;
+	/*
 	background-image: linear-gradient(right bottom, #FFFFFF 20%, #F7F7FF 60%);
 	background-image: -o-linear-gradient(right bottom, #FFFFFF 20%, #F7F7FF 60%);
 	background-image: -moz-linear-gradient(right bottom, #FFFFFF 20%, #F7F7FF 60%);
@@ -61,6 +62,19 @@ div.bgcontainer {
 		color-stop(0.2, #FFFFFF),
 		color-stop(0.6, #F7F7FF)
 	);
+	*/
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	right bottom,
+	color-stop(0.12, #EBECF0),
+	color-stop(0.38, #F7F7F7)
+);
+background-image: -o-linear-gradient(right bottom, #EBECF0 12%, #F7F7F7 38%);
+background-image: -moz-linear-gradient(right bottom, #EBECF0 12%, #F7F7F7 38%);
+background-image: -webkit-linear-gradient(right bottom, #EBECF0 12%, #F7F7F7 38%);
+background-image: -ms-linear-gradient(right bottom, #EBECF0 12%, #F7F7F7 38%);
+background-image: linear-gradient(to right bottom, #EBECF0 12%, #F7F7F7 38%);
 }
 
 div.footer {
@@ -145,6 +159,9 @@ h4 {
 a:link {
 	text-decoration:none;
 }
+a:hover {
+	text-decoration:underline;
+}
 td {
 	border:1px solid lightgrey;
 	border-radius:0.5em;
@@ -153,4 +170,11 @@ th {
         border:1px solid grey;
         border-radius:0.5em;
 }
-
+a.logolink {
+	position:fixed;
+	left:10px;
+	top:10px;
+	display:block;
+	width:185px;
+	height:190px;
+}

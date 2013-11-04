@@ -47,6 +47,7 @@ $headother
 
 <body>
 <div class='bgcontainer'><div class='container'>
+<a class='logolink' href='https://tools.wmflabs.org/' title='Wikimedia Tool Labs'></a>
 <div class='header'><h1 class='header'>Tool Labs: alexz's tools</h1></div>
 
 <div class='left'>
