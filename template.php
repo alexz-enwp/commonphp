@@ -27,9 +27,9 @@ function templatetop( $title, $css = array(), $js = array(), $subpage = '', $hea
 	if ( $subpage ) {
 		$subpage = "<span class=\"subpages\">&lt; $subpage</span>";
 	}
-	
+
 	$jselems = "";
-	foreach( $js as $page ) {		
+	foreach( $js as $page ) {
 		$jselems .= "		<script type=\"text/javascript\" src=\"/$PROJECT/commonphp/$page\"></script>\n";
 	}
 
@@ -71,14 +71,24 @@ $headother
 }
 
 function templatebottom() {
-
+global $PROJECT;
 	echo "
 </div>
 
 
-<div class='footer'>Footer</div>
+<div class='footer'>
+<a href='http://www.w3.org/html/logo/'>
+<img src='/$PROJECT/commonphp/HTML5_1Color_Black.svg' height='50' style='vertical-align:middle;'
+alt='HTML5 Powered with CSS3 / Styling, and Graphics, 3D &amp; Effects' title='HTML5 Powered with CSS3 / Styling, and Graphics, 3D &amp; Effects'></a>
+&bull;
+<a href='http://gplv3.fsf.org/'>
+<img src='/$PROJECT/commonphp/gplv3-127x51.png' height='40' style='vertical-align:middle;'
+alt='This webpage is free software licensed under the GPLv3 license' title='This webpage is free software licensed under the GPLv3 license'></a>
+&bull;
+<a style='vertical-align:middle; font-size:80%;' href='/$PROJECT/commonphp/LICENSE' title='License details'>License details</a>
+</div>
 </div></div>
 
-	
-</body></html>";	
+
+</body></html>";
 }

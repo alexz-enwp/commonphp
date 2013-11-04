@@ -16,7 +16,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-# wfUrlencode - borrowed from MediaWiki's GlobalFunctions.php
+// wfUrlencode - borrowed from MediaWiki's GlobalFunctions.php
 function wfUrlencode( $s ) {
     $s = rawurlencode( $s );
     $s = str_ireplace(
