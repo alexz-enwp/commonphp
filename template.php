@@ -20,7 +20,7 @@ function templatetop( $title, $css = array(), $js = array(), $subpage = '', $hea
 	global $PROJECT;
 	$csslinks = "";
 	foreach( $css as $page ) {
-		$csslinks .= "		<link rel=\"stylesheet\" href=\"/$PROJECT/commonphp/$page\" type=\"text/css\" />\n";
+		$csslinks .= "		<link rel=\"stylesheet\" href=\"/$PROJECT/$page\" type=\"text/css\" />\n";
 	}
 	// NOTE: Not currently implemented!
 	$title = htmlspecialchars( $title, ENT_QUOTES );
@@ -30,7 +30,7 @@ function templatetop( $title, $css = array(), $js = array(), $subpage = '', $hea
 
 	$jselems = "";
 	foreach( $js as $page ) {
-		$jselems .= "		<script type=\"text/javascript\" src=\"/$PROJECT/commonphp/$page\"></script>\n";
+		$jselems .= "		<script type=\"text/javascript\" src=\"/$PROJECT/$page\"></script>\n";
 	}
 
 	echo "<!DOCTYPE html>
