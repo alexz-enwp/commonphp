@@ -83,10 +83,10 @@ global $PROJECT;
 alt='HTML5 Powered with CSS3 / Styling, and Graphics, 3D &amp; Effects' title='HTML5 Powered with CSS3 / Styling, and Graphics, 3D &amp; Effects'></a>
 &bull;
 <a href='http://gplv3.fsf.org/'>
-<img src='/$PROJECT/commonphp/gplv3-127x51.png' height='40' class='footerimg'
+<img src='/$PROJECT/commonphp/gpl-v3-logo.svg' height='40' class='footerimg'
 alt='This webpage is free software licensed under the GPLv3 license' title='This webpage is free software licensed under the GPLv3 license'></a>
 &bull;
-<a style='vertical-align:middle; font-size:80%;' href='/$PROJECT/commonphp/LICENSE' title='License details'>License details</a>
+<a style='vertical-align:middle; font-size:80%;' href='/$PROJECT/commonphp/license.php' title='License details'>License details</a>
 </div>
 </div></div>
 
