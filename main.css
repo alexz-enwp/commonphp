@@ -42,7 +42,7 @@ div.container {
 	margin:0px;
 	border:1px solid gray;
 	line-height:150%;
-	background-image:url('http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Tool_labs_logo_with_text.svg/150px-Tool_labs_logo_with_text.svg.png');
+	background-image:url('//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Tool_labs_logo_with_text.svg/150px-Tool_labs_logo_with_text.svg.png');
 	background-repeat:no-repeat;
 	background-position: 15px 10px;
 }
@@ -132,7 +132,7 @@ ul.sidebarlinks {
 }
 
 li.slink {
-	background: url(https://upload.wikimedia.org/wikipedia/commons/9/90/Vector-bullet-icon.png) 3pt 2pt no-repeat;
+	background: url(//upload.wikimedia.org/wikipedia/commons/9/90/Vector-bullet-icon.png) 3pt 2pt no-repeat;
 	padding-left: 10pt;
 }
 
