@@ -15,24 +15,30 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-.messagebox {
+.result {
 	font-size: 125%;
-	padding: 0.5%;
-	font-weight: bold;
+	padding-left:40px;
+	height:40px;
+	display:inline-block;
+	line-height: 40px;
+	vertical-align: middle;
+	font-weight:bold;
+	border-radius:0.5em;
 }
-
 .error {
 	border: 3px solid red;
-	background-color: #FF7A95;
+	color:#910000;
+	background:#FF7A95 url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/False.svg/30px-False.svg.png) 3pt 4pt no-repeat;
 }
 .success {
 	border: 3px solid green;
-	background-color: #7AFF7A;
+	color:#078500;
+	background:#7AFF7A url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/True.svg/30px-True.svg.png) 3pt 2pt no-repeat;
 }
 .notice {
+	font-size: 100% !important;
 	border: 3px solid #F5F500;
-	background-color: #FFFF6B;
-	font-size: 110% !important;
+	background: #FFFF6B url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Crystal_important.svg/30px-Crystal_important.svg.png) 4pt 4pt no-repeat;
 }
 
 

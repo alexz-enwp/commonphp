@@ -32,13 +32,13 @@ function successmsg( $msg ) {
 	if ( is_array( $msg ) ) {
 		$msg = implode( "<br />", $msg );
 	}
-	echo "<div class='messagebox success'>$msg</div>";
+	echo "<div class='result success'>$msg</div>";
 }
 function errormsg( $msg ) {
 	if ( is_array( $msg ) ) {
 		$msg = implode( "<br />", $msg );
 	}
-	echo "<div class='messagebox error'>$msg</div>";
+	echo "<div class='result error'>$msg</div>";
 }
 
 function shellexec( $cmd ) {
