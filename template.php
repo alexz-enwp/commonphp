@@ -52,11 +52,15 @@ $headother
 <div class='header'><h1 class='header'>Tool Labs: alexz's tools</h1></div>
 
 <div class='left'>
+<h4>Other tools</h4>
+<ul class='sidebarlinks'>
+<li class='slink'><a href='https://tools.wmflabs.org/amdb/' title='Admins willing to make difficult blocks'>Admins willing to make difficult blocks</a></li>
+<li class='slink'><a href='https://tools.wmflabs.org/geophotoreq/' title='Geotagged articles needing images'>Geotagged articles needing images</a></li>
+<li class='slink'><a href='https://tools.wmflabs.org/popularpages/' title='WikiProject popular pages'>WikiProject popular pages</a></li>
+</ul>
 <h4>Information</h4>
 <ul class='sidebarlinks'>
 <li class='slink'><a href='https://tools.wmflabs.org/' title='Tool Labs'>Wikimedia Tool Labs</a></li>
-<!--<li class='slink'><a href='' title=''>More of alexz's tools</a></li>
-<li class='slink'><a href='' title=''>Admins willing to make difficult blocks</a></li>-->
 <li class='slink'><a href='https://en.wikipedia.org/wiki/User:Mr.Z-bot' title='Mr.Z-bot'>Bot info</a></li>
 <li class='slink'><a href='https://github.com/alexz-enwp?tab=repositories' title='Source'>Source code</a></li>
 </ul>
