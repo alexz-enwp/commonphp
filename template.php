@@ -38,30 +38,30 @@ function templatetop( $title, $css = array(), $js = array(), $subpage = '', $hea
 	<head>
 		<title>$title - alexz's tools - Wikimedia Tool Labs</title>
 		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
-		<link rel='shortcut icon' sizes='16x16 32x32 48x48 64x64' href='$PROJECT/favicon.ico'>
-		<link rel='shortcut icon' type='image/x-icon' href='$PROJECT/favicon.ico'>
-		<!--[if IE]><link rel='shortcut icon' href='$PROJECT/favicon.ico'><![endif]-->
+		<link rel='shortcut icon' sizes='16x16 32x32 48x48 64x64' href='$PROJECT/commonphp/favicon.ico'>
+		<link rel='shortcut icon' type='image/x-icon' href='$PROJECT/commonphp/favicon.ico'>
+		<!--[if IE]><link rel='shortcut icon' href='$PROJECT/commonphp/favicon.ico'><![endif]-->
 		<!-- For Opera Speed Dial -->
-		<link rel='icon' type='image/png' sizes='195x195' href='$PROJECT/favicon-195.png'>
+		<link rel='icon' type='image/png' sizes='195x195' href='$PROJECT/commonphp/favicon-195.png'>
 		<!-- For iPad with high-resolution Retina Display running iOS ≥ 7 -->
-		<link rel='apple-touch-icon' sizes='152x152' href='$PROJECT/favicon-152.png'>
+		<link rel='apple-touch-icon' sizes='152x152' href='$PROJECT/commonphp/favicon-152.png'>
 		<!-- For iPad with high-resolution Retina Display running iOS ≤ 6 -->
-		<link rel='apple-touch-icon' sizes='144x144' href='$PROJECT/favicon-144.png'>
+		<link rel='apple-touch-icon' sizes='144x144' href='$PROJECT/commonphp/favicon-144.png'>
 		<!-- For iPhone with high-resolution Retina Display running iOS ≥ 7 -->
-		<link rel='apple-touch-icon' sizes='120x120' href='$PROJECT/favicon-120.png'>
+		<link rel='apple-touch-icon' sizes='120x120' href='$PROJECT/commonphp/favicon-120.png'>
 		<!-- For iPhone with high-resolution Retina Display running iOS ≤ 6 -->
-		<link rel='apple-touch-icon' sizes='114x114' href='$PROJECT/favicon-114.png'>
+		<link rel='apple-touch-icon' sizes='114x114' href='$PROJECT/commonphp/favicon-114.png'>
 		<!-- For Google TV devices -->
-		<link rel='icon' type='image/png' sizes='96x96' href='$PROJECT/favicon-96.png'>
+		<link rel='icon' type='image/png' sizes='96x96' href='$PROJECT/commonphp/favicon-96.png'>
 		<!-- For iPad Mini -->
-		<link rel='apple-touch-icon' sizes='76x76' href='$PROJECT/favicon-76.png'>
+		<link rel='apple-touch-icon' sizes='76x76' href='$PROJECT/commonphp/favicon-76.png'>
 		<!-- For first- and second-generation iPad -->
-		<link rel='apple-touch-icon' sizes='72x72' href='$PROJECT/favicon-72.png'>
+		<link rel='apple-touch-icon' sizes='72x72' href='$PROJECT/commonphp/favicon-72.png'>
 		<!-- For non-Retina iPhone, iPod Touch and Android 2.1+ devices -->
-		<link rel='apple-touch-icon' href='$PROJECT/favicon-57.png'>
+		<link rel='apple-touch-icon' href='$PROJECT/commonphp/favicon-57.png'>
 		<!-- Windows 8 Tiles -->
 		<meta name='msapplication-TileColor' content='#FFFFFF'>
-		<meta name='msapplication-TileImage' content='$PROJECT/favicon-144.png'>
+		<meta name='msapplication-TileImage' content='$PROJECT/commonphp/favicon-144.png'>
 
 $csslinks
 		<link rel=\"stylesheet\" href=\"/$PROJECT/commonphp/main.css\" type=\"text/css\" media=\"screen\" />
