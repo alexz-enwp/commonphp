@@ -162,7 +162,7 @@ th {
         border-radius:0.5em;
 }
 a.logolink {
-	position:fixed;
+	position:absolute;
 	left:10px;
 	top:10px;
 	display:block;
