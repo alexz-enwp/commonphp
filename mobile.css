@@ -48,9 +48,6 @@ div.container {
 	margin:0px;
 	border:1px solid gray;
 	line-height:150%;
-	background-image:url('//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Tool_labs_logo_with_text.svg/150px-Tool_labs_logo_with_text.svg.png');
-	background-repeat:no-repeat;
-	background-position: 15px 10px;
 }
 div.bgcontainer {
 	border-radius:0.5em;
@@ -78,8 +75,7 @@ div.footer {
 
 div.header {
 	border-radius:0.5em;
-	padding:0.5em;
-	margin-left: 192px;
+	padding:0.4em;
 	color:white;
 	clear:left;
 	background-image: linear-gradient(right top, #90B3D1 20%, #5C5A9E 60%);
@@ -108,32 +104,18 @@ h2 {
 	font-size: 225%;
 	border-bottom: 2px dotted darkblue;
 	padding-bottom: 0.4em;
-	padding-left: 1em;
-}
-
-div.middle {
-	min-height:550px;
-}
-
-div.left {
-	font-size:90%;
-	line-height:150%;
-	padding:1em;
-	padding-left:0;
-	position:absolute;
-	top:170px;
-	width:175px;
 }
 
 div.content {
 	border-radius:0.5em;
-	margin-left:192px;
 	border-left:1px solid gray;
 	border-bottom:1px solid gray;
-	padding:1em;
-	bottom:100%;
 	background-color:#E6E6E6;
-	magine-left:192px;
+}
+
+div.content > h2 {
+    padding-top:0.15em;
+    margin:0;
 }
 
 ul.sidebarlinks {
@@ -167,14 +149,10 @@ th {
         border-radius:0.5em;
 }
 a.logolink {
-	position:absolute;
-	left:10px;
-	top:10px;
-	display:block;
-	width:185px;
-	height:190px;
+	display:none;
 }
 img.footerimg {
 	vertical-align:middle; 
 	border:none;
 }
+

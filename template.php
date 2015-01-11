@@ -64,7 +64,8 @@ function templatetop( $title, $css = array(), $js = array(), $subpage = '', $hea
 		<meta name='msapplication-TileImage' content='commonphp/favicon-144.png'>
 
 $csslinks
-		<link rel=\"stylesheet\" href=\"/$PROJECT/commonphp/main.css\" type=\"text/css\" media=\"screen\" />
+		<link rel=\"stylesheet\" href=\"/$PROJECT/commonphp/mobile.css\" type=\"text/css\" media=\"only screen and (max-device-width: 799px)\" />
+		<link rel=\"stylesheet\" href=\"/$PROJECT/commonphp/main.css\" type=\"text/css\" media=\"screen and (min-device-width: 800px)\" />
 		<!--[if lte IE 9]><link rel=\"stylesheet\" href=\"/$PROJECT/commonphp/IE.css\" type=\"text/css\" media=\"screen\" /><![endif]-->
 
 $jselems
@@ -76,6 +77,17 @@ $headother
 <a class='logolink' href='https://tools.wmflabs.org/' title='Wikimedia Tool Labs'></a>
 <div class='header'><h1 class='header'>Tool Labs: alexz's tools</h1></div>
 
+<div class='middle'>
+
+<div class='content'>
+<h2>$title</h2>
+";
+}
+
+function templatebottom() {
+global $PROJECT;
+	echo "
+</div>
 <div class='left'>
 <h4>Other tools</h4>
 <ul class='sidebarlinks'>
@@ -94,17 +106,7 @@ $headother
 <li class='slink'><a href='https://en.wikipedia.org/wiki/User_talk:Mr.Z-man' title='Talk page'>Talk page</a></li>
 </ul>
 </div>
-
-<div class='content'>
-<h2>$title</h2>
-";
-}
-
-function templatebottom() {
-global $PROJECT;
-	echo "
 </div>
-
 
 <div class='footer'>
 <a href='http://www.w3.org/html/logo/'>
